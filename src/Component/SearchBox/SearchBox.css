@@ -1,0 +1,74 @@
+.searchBox{
+    width: 100%;
+    border: 1px solid #000;
+}
+.searchBox input{
+    width: 90%;
+    border: 0px;
+    font-size: 16px;
+    padding: 6px;
+    box-sizing: border-box;
+}
+.searchResult .list{
+    width: 100%;
+    padding: 10px 20px;
+    margin: 15px 0px;
+    box-sizing: border-box;
+    -webkit-box-shadow: -1px 2px 6px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 2px 6px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 2px 6px 0px rgba(0,0,0,0.75);
+}
+.searchResult .list .details{
+    text-align: left;
+    width: 78%;
+    float: left;
+}
+.searchResult .list .addBtn{
+    text-align: left;
+    width: 22%;
+    float: left;
+}
+.searchResult .list .addBtn .btn{
+    margin: 20px auto;
+    padding: 3px;
+    border: 1px solid #0394fc;
+    color: #0394fc;
+    border-radius: 5px;
+    text-align: center;
+    width: 70px;
+    cursor: pointer;
+}
+.searchResult .list .addBtn .btn:hover{
+    border: 1px solid #fff;
+    color: #fff;
+    background: #0394fc;
+    border-radius: 5px;
+    text-align: center;
+    width: 70px;
+    cursor: pointer;
+}
+.searchResult .list .details .heading{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #000;
+    letter-spacing: 0.5px;
+    margin: 5px 0px;
+}
+.searchResult .list .details .equity,
+.searchResult .list .details .amount{
+    font-size: 14px;
+    color: #616162;
+    margin: 5px 0px;
+}
+.searchResult .list .details .amount span.bold{
+    font-weight: 600;
+    color: #000;
+}
+.searchBox .searchImg{
+    width: 31px;
+    float: left;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-left: 5px;
+}

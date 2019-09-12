@@ -1,0 +1,46 @@
+.head{
+	 background: #d3e8f5;
+    color: #616162;
+    padding: 15px 20px;
+	box-sizing: border-box;
+    text-align: left;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: .8px;
+    line-height: 22px;
+}
+.error{
+    font-size: 14px;
+    color: red;
+    display: none;
+}
+.allList{
+	padding: 0px 30px;
+	box-sizing: border-box;
+}
+.ItemShow .searchResult .list .details{
+    text-align: left;
+    width: 60%;
+    float: left;
+}
+.ItemShow .searchResult .list .delBtn{
+    text-align: left;
+    margin: 20px auto;
+    width: 40%;
+    float: left;
+}
+.ItemShow .searchResult .list .delBtn .fund{
+	width: calc(100% - 28px);
+	float: left;
+}
+.ItemShow .searchResult .list .delBtn .fund input{
+	width: 80%;
+	height: 24px;
+}
+.ItemShow .searchResult .list .delBtn .btn{
+	float: left;
+}
+.ItemShow .searchResult .list .delBtn .btn img{
+	height: 28px;
+	cursor: pointer;
+}
