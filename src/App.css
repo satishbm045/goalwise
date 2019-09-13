@@ -77,3 +77,29 @@
     transform: rotate(360deg);
   }
 }
+@media(max-width:767px) {
+
+  .App .container{
+    padding: 20px 10px;
+  }
+  .App .container .heading{
+    font-size: 24px;
+  }
+  .App .container .content .Box{  
+    display: block;
+  }
+  .App .container .content .leftBox,
+  .App .container .content .rightBox{
+    height: 400px;
+    overflow-y: auto;
+    width: 100%;
+    margin: 0px;
+    background: #fff;
+    -webkit-box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.75);
+  }
+  .App .container .content .rightBox{
+    margin-top: 20px; 
+  }
+}
