@@ -31,7 +31,7 @@ class App extends React.Component{
 		return (
 		<div className="App">
 			<div className="container">
-				<div className="heading">Select Funds To Invest</div>
+				<div className="heading">Select Funds To Invest In</div>
 				<div className="content">
 					<div className="searchHeading">Search</div>
 					<div className="Box">
