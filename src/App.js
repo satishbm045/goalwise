@@ -2,8 +2,6 @@ import React from 'react';
 import './App.css';
 import SearchBox from './Component/SearchBox/SearchBox';
 import ItemShow from './Component/ItemShow/ItemShow';
-import axios from 'axios';
-import $ from "jquery";
 
 class App extends React.Component{
 	constructor(props){
