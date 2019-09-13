@@ -19,7 +19,7 @@ class ItemShow extends React.Component{
         })
     }
     validationCheck = (e,i) =>{
-        if(this.state.enteredValue > e.minsipamount){
+        if(this.state.enteredValue > e.minsipamount && this.state.enteredValue % e.minsipmultiple == 0){
             document.getElementById('error-'+i).style.display = 'none';
         }else{
             document.getElementById('error-'+i).style.display = 'block';
