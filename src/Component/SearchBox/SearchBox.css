@@ -76,3 +76,17 @@
     box-sizing: border-box;
     margin-left: 5px;
 }
+@media(max-width:767px) {
+    .leftBoxContent{
+        padding: 10px;
+    }
+    .searchBox input{
+        width: 80%;
+    }
+    .searchResult .list{
+        padding: 10px 10px;
+    }
+    .searchResult .list .addBtn .btn {
+        width: 50px;
+    }
+}
