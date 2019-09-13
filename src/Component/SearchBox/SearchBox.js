@@ -36,7 +36,7 @@ class SearchBox extends React.Component{
     }
     render(){
         return (
-            <div className="">
+            <div className="leftBoxContent">
                 <div className="searchBox">
                     <img className="searchImg" src={searchLogo} />
                     <input type="text" placeholder="Search" onChange={this.searchData} name="searchBox" value={this.state.search}/>
