@@ -61,18 +61,13 @@
 }
 .App .container .content .leftBox,
 .App .container .content .rightBox{
-  height: 360px;
+  height: 400px;
   overflow-y: auto;
-  padding: 30px 30px;
-  width: 100%;
+  width: 500%;
   background: #fff;
   -webkit-box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.75);
   box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.75);
-}
-.App .container .content .rightBox{
-  padding: 0px;
-  height: 420px;
 }
 @keyframes App-logo-spin {
   from {
