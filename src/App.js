@@ -19,8 +19,9 @@ class App extends React.Component{
 	}
 	getDeletedItem = (e,i) =>{
 		let currentData = this.state.selectedItem;
-		currentData.splice(i,1)
+		console.log(i);
 		console.log(currentData);
+		currentData.splice(i,1)
 		this.setState({
 			selectedItem: currentData
 		})
